@@ -1,0 +1,27 @@
+.landing {
+  .bg-image {
+    height: 80vh;
+    background: center/cover #170c16 url(../../assets/landing.webp);
+    color: rgb(255, 255, 255);
+    display: flex;
+    filter: blur(2px) brightness(0.8);
+    -webkit-filter: blur(2px) brightness(0.8);
+  }
+
+  .title-text {
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+    padding: 30px;
+  }
+
+  span {
+    color: #ff9500;
+  }
+}

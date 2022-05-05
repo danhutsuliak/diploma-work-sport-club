@@ -1,0 +1,15 @@
+.header {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem 0;
+
+  img {
+    width: 75px;
+    height: 75px;
+    user-select: none;
+  }
+}

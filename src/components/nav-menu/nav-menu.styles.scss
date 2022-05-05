@@ -1,0 +1,75 @@
+.nav-menu {
+  .btn {
+    position: absolute;
+    z-index: 2;
+    top: 48px;
+    right: 24px;
+
+    &__burger {
+      &,
+      &::before,
+      &::after {
+        width: 2.4rem;
+        height: 7px;
+        border-radius: 10px;
+        background: rgb(250, 250, 250);
+      }
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+      }
+
+      &::before {
+        transform: translateY(-17px);
+      }
+
+      &::after {
+        transform: translateY(17px);
+      }
+    }
+  }
+
+  nav {
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    transform: translateX(120vw);
+    transition: transform 0.5s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+
+    &.active {
+      transform: translateX(20vw);
+    }
+
+    a {
+      text-decoration: none;
+      user-select: none;
+      font-size: 2rem;
+      margin: 0 auto;
+      display: block;
+      border-radius: 25px;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &:visited {
+        color: white;
+      }
+
+      &:link {
+        color: white;
+      }
+    }
+  }
+}
