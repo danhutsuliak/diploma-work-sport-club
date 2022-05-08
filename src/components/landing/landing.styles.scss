@@ -1,11 +1,21 @@
 .landing {
+  position: relative;
+  overflow: hidden;
+  height: 60vh;
+  z-index: -1;
+
   .bg-image {
-    height: 80vh;
-    background: center/cover #170c16 url(../../assets/landing.webp);
+    height: 60vh;
     color: rgb(255, 255, 255);
-    display: flex;
-    filter: blur(2px) brightness(0.8);
-    -webkit-filter: blur(2px) brightness(0.8);
+    background: center/cover #170c16 url(../../assets/landing.webp);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: scale(1.1);
+    filter: blur(3px) brightness(0.8);
+    -webkit-filter: blur(3px) brightness(0.8);
   }
 
   .title-text {
@@ -13,10 +23,9 @@
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2;
     text-align: center;
     padding: 30px;
   }

@@ -2,10 +2,13 @@ import React from "react";
 
 import "./news-preview.styles.scss";
 import newsBlockImage from "../../assets/news-block-image.jpg";
+import { Link } from "react-router-dom";
 
 const NewsPreview = () => (
   <div className="news-preview">
-    <h2>Новини</h2>
+    <h2>
+      <Link to="/news">Новини</Link>
+    </h2>
 
     <div className="news-block">
       <img className="news-image" src={newsBlockImage} alt="Basketball Game" />

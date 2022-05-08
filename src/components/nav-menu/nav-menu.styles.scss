@@ -1,9 +1,9 @@
 .nav-menu {
   .btn {
     position: absolute;
-    z-index: 2;
     top: 48px;
     right: 24px;
+    z-index: 99;
 
     &__burger {
       &,
@@ -33,7 +33,7 @@
 
   nav {
     position: fixed;
-    z-index: 0;
+    z-index: 98;
     top: 0;
     left: 0;
     width: 80vw;
@@ -45,7 +45,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
+    gap: 1.5rem;
 
     &.active {
       transform: translateX(20vw);
@@ -57,18 +57,10 @@
       font-size: 2rem;
       margin: 0 auto;
       display: block;
-      border-radius: 25px;
+      color: white;
 
       &:hover {
         cursor: pointer;
-      }
-
-      &:visited {
-        color: white;
-      }
-
-      &:link {
-        color: white;
       }
     }
   }

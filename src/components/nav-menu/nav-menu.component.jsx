@@ -25,10 +25,13 @@ const NavMenu = () => {
         <Link to="/" onClick={clickLinkHandler}>
           Головна
         </Link>
+        <Link to="/news" onClick={clickLinkHandler}>
+          Новини
+        </Link>
         <Link to="/about" onClick={clickLinkHandler}>
           Про клуб
         </Link>
-        <Link to="/contact-us" onClick={clickLinkHandler}>
+        <Link to="/contacts" onClick={clickLinkHandler}>
           Контакти
         </Link>
       </nav>
