@@ -1,10 +1,10 @@
-.news-preview {
+.news {
   display: flex;
   flex-direction: column;
   margin: 20px;
   gap: 20px;
 
-  h2 {
-    margin: 10px;
+  h1 {
+    margin: 20px auto;
   }
 }

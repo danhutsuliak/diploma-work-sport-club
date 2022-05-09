@@ -4,15 +4,16 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #170c16;
-  padding: 15px 0;
+  padding: 15px 30px;
 
   img {
-    height: 75px;
+    height: 65px;
     user-select: none;
   }
 
-  a {
-    height: 75px;
+  @media screen and (min-width: 800px) {
+    justify-content: space-between;
   }
 }

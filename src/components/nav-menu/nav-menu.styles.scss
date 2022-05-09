@@ -40,7 +40,6 @@
     height: 100vh;
     background: rgba(0, 0, 0, 0.8);
     transform: translateX(120vw);
-    transition: transform 0.5s;
 
     display: flex;
     flex-direction: column;
@@ -49,6 +48,7 @@
 
     &.active {
       transform: translateX(20vw);
+      transition: transform 0.5s;
     }
 
     a {
@@ -61,6 +61,37 @@
 
       &:hover {
         cursor: pointer;
+      }
+    }
+  }
+
+  @media screen and (max-width: 380px) {
+    .btn {
+      top: 44px;
+    }
+  }
+
+  @media screen and (min-width: 800px) {
+    .btn {
+      display: none;
+    }
+
+    nav {
+      position: relative;
+      width: max-content;
+      height: max-content;
+      flex-direction: row;
+      background: none;
+      transform: translateX(0);
+      transition: none;
+
+      &.active {
+        transform: translateX(0);
+        transition: none;
+      }
+
+      a {
+        font-size: 1.4rem;
       }
     }
   }

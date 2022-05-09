@@ -33,4 +33,11 @@
   span {
     color: #ff9500;
   }
+
+  @media screen and (max-width: 380px) {
+    .title-text {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  }
 }

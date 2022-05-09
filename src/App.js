@@ -4,6 +4,7 @@ import Layout from './components/layout/layout.component';
 import About from './pages/about/about.component';
 import Contacts from './pages/contacts/contacts.component';
 import Home from './pages/home/home.component';
+import News from './pages/news/news.component';
 import NoMatch from './pages/no-match/no-match.component';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contacts" element={<Contacts />} />
+          <Route path="news" element={<News />} />
 
           <Route path="*" element={<NoMatch />} />
         </Route>

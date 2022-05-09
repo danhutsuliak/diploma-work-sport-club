@@ -8,6 +8,13 @@ footer {
   padding: 1rem;
   font-family: "Arial", sans-serif;
   font-size: 0.875rem;
+
+  small {
+    color: #ccc;
+    letter-spacing: 0.025rem;
+    margin-bottom: 1.5rem;
+    display: block;
+  }
 }
 
 .wrapper {
@@ -15,21 +22,16 @@ footer {
   vertical-align: middle;
 }
 
-footer small {
-  color: #ccc;
-  letter-spacing: 0.025rem;
-  margin-bottom: 1.5rem;
-  display: block;
-}
+.footer-nav {
+  a {
+    color: #ff9500;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    display: inline-block;
 
-.footer-nav a {
-  color: #ff9500;
-  text-decoration: none;
-  margin: 0 0.5rem;
-  display: inline-block;
-}
-
-.footer-nav a:hover {
-  color: #ff9500;
-  transition: color 0.15s ease-in-out;
+    &:hover {
+      color: #ff9500;
+      transition: color 0.15s ease-in-out;
+    }
+  }
 }
