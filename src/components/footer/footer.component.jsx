@@ -7,12 +7,12 @@ const Footer = () => (
   <footer>
     <div class="wrapper">
       <small>
-        &copy;2022 <strong>Danyil Hutsuliak</strong>, All Rights Reserved
+        &copy;2022 <strong>БК "Tigers"</strong>
       </small>
       <nav class="footer-nav">
-        <Link to="/">Back to Top</Link>
-        <Link to="/">Terms of Use</Link>
-        <Link to="/">@danhutsuliak</Link>
+        <Link to="/">Головна</Link>
+        <Link to="about">Про нас</Link>
+        <a href="https://github.com/danhutsuliak">@danhutsuliak на Github</a>
       </nav>
     </div>
   </footer>
