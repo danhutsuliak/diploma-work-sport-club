@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./landing.styles.scss";
-// import landingBg from "../../assets/landing.webp";
+import { ReactComponent as ArrowDown } from "../../assets/down-arrow.svg";
 
 const Landing = () => (
   <div className="landing">
@@ -12,6 +12,8 @@ const Landing = () => (
         Баскетбольний клуб <span>"Tigers"</span>
       </h1>
     </div>
+
+    <ArrowDown />
   </div>
 );
 

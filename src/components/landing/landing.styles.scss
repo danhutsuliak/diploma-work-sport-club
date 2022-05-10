@@ -6,6 +6,7 @@
 
   .bg-image {
     height: 60vh;
+    width: 100%;
     color: rgb(255, 255, 255);
     background: center/cover #170c16 url(../../assets/landing.webp);
     position: absolute;
@@ -34,10 +35,55 @@
     color: #ff9500;
   }
 
+  svg {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    width: 50px;
+
+    -webkit-animation: slide-bottom 2.5s ease-in-out 3s infinite alternate both;
+    animation: slide-bottom 2.5s ease-in-out 3s infinite alternate both;
+  }
+
   @media screen and (max-width: 380px) {
     .title-text {
       font-size: 0.9rem;
       padding: 10px;
     }
+  }
+
+  @media screen and (min-width: 800px) {
+    height: 75vh;
+
+    .bg-image {
+      height: 75vh;
+    }
+  }
+}
+
+/**
+ * ----------------------------------------
+ * animation slide-bottom
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+  }
+  100% {
+    -webkit-transform: translate(-50%, 16px);
+    transform: translate(-50%, 16px);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+  }
+  100% {
+    -webkit-transform: translate(-50%, 16px);
+    transform: translate(-50%, 16px);
   }
 }
