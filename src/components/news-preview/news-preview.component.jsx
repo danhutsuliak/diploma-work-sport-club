@@ -36,15 +36,6 @@ const NewsPreview = () => (
       dolorem dolorum."
         date="3h"
       />
-
-      <NewsBlock
-        image={newsBlockImage}
-        title="Lorem Ipsum"
-        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tempore
-      corrupti laboriosam odio voluptates debitis consectetur sint. Fugit,
-      dolorem dolorum."
-        date="3h"
-      />
     </div>
   </div>
 );

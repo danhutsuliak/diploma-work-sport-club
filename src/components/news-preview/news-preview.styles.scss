@@ -7,17 +7,21 @@
   }
 
   .news-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .news-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 20px;
-    gap: 20px;
+    grid-gap: 1rem;
+  }
+
+  @media (min-width: 800px) {
+    .news-wrapper {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .news-wrapper {
+      grid-template-columns: repeat(4, 1fr);
+    }
   }
 }

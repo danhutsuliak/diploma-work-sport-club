@@ -8,7 +8,23 @@
     margin: 20px auto;
   }
 
-  @media screen and (min-width: 800px) {
+  .news-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 2rem;
+  }
+
+  @media (min-width: 800px) {
     margin: 20px 8%;
+    .news-wrapper {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .news-wrapper {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 }

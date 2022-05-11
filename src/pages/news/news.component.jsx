@@ -9,59 +9,61 @@ const News = () => {
     <div className="news">
       <h1>Новини </h1>
 
-      <NewsBlock
-        image={newsBlockImage}
-        title="Lorem Ipsum"
-        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tempore
+      <div className="news-wrapper">
+        <NewsBlock
+          image={newsBlockImage}
+          title="Lorem Ipsum"
+          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tempore
       corrupti laboriosam odio voluptates debitis consectetur sint. Fugit,
       dolorem dolorum."
-        date="3h"
-      />
+          date="3h"
+        />
 
-      <NewsBlock
-        image={newsBlockImage}
-        title="Lorem Ipsum"
-        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tempore
+        <NewsBlock
+          image={newsBlockImage}
+          title="Lorem Ipsum"
+          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tempore
       corrupti laboriosam odio voluptates debitis consectetur sint. Fugit,
       dolorem dolorum."
-        date="3h"
-      />
+          date="3h"
+        />
 
-      <NewsBlock
-        image={newsBlockImage}
-        title="Lorem Ipsum"
-        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tempore
+        <NewsBlock
+          image={newsBlockImage}
+          title="Lorem Ipsum"
+          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tempore
       corrupti laboriosam odio voluptates debitis consectetur sint. Fugit,
       dolorem dolorum."
-        date="3h"
-      />
+          date="3h"
+        />
 
-      <NewsBlock
-        image={newsBlockImage}
-        title="Lorem Ipsum"
-        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tempore
+        <NewsBlock
+          image={newsBlockImage}
+          title="Lorem Ipsum"
+          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tempore
       corrupti laboriosam odio voluptates debitis consectetur sint. Fugit,
       dolorem dolorum."
-        date="3h"
-      />
+          date="3h"
+        />
 
-      <NewsBlock
-        image={newsBlockImage}
-        title="Lorem Ipsum"
-        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tempore
+        <NewsBlock
+          image={newsBlockImage}
+          title="Lorem Ipsum"
+          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tempore
       corrupti laboriosam odio voluptates debitis consectetur sint. Fugit,
       dolorem dolorum."
-        date="3h"
-      />
+          date="3h"
+        />
 
-      <NewsBlock
-        image={newsBlockImage}
-        title="Lorem Ipsum"
-        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tempore
+        <NewsBlock
+          image={newsBlockImage}
+          title="Lorem Ipsum"
+          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tempore
       corrupti laboriosam odio voluptates debitis consectetur sint. Fugit,
       dolorem dolorum."
-        date="3h"
-      />
+          date="3h"
+        />
+      </div>
     </div>
   );
 };
