@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import NewsBlock from "../news-block/news-block.component";
 
 const NewsPreview = () => (
-  <div className="news-preview">
+  <div className="news-preview" id="news-preview">
     <h2>
       <Link to="/news">Новини</Link>
     </h2>

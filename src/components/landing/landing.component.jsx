@@ -2,6 +2,7 @@ import React from "react";
 
 import "./landing.styles.scss";
 import { ReactComponent as ArrowDown } from "../../assets/down-arrow.svg";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Landing = () => (
   <div className="landing">
@@ -13,7 +14,9 @@ const Landing = () => (
       </h1>
     </div>
 
-    <ArrowDown />
+    <AnchorLink offset="100" href="#news-preview" className="arrow-down">
+      <ArrowDown />
+    </AnchorLink>
   </div>
 );
 

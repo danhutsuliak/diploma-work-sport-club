@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import NewsBlock from "../../components/news-block/news-block.component";
 import newsBlockImage from "../../assets/news-block-image.jpg";
 
 import "./news.styles.scss";
 
 const News = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="news">
       <h1>Новини </h1>
