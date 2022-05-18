@@ -1,0 +1,11 @@
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 40px;
+
+  h1 {
+    text-align: center;
+    margin: 16px;
+  }
+}

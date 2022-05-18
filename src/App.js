@@ -6,6 +6,7 @@ import Contacts from './pages/contacts/contacts.component';
 import Home from './pages/home/home.component';
 import News from './pages/news/news.component';
 import NoMatch from './pages/no-match/no-match.component';
+import Stats from './pages/stats/stats.component';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="contacts" element={<Contacts />} />
           <Route path="news" element={<News />} />
+          <Route path="stats" element={<Stats />} />
 
           <Route path="*" element={<NoMatch />} />
         </Route>

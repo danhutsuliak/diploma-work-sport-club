@@ -28,6 +28,9 @@ const NavMenu = () => {
         <Link to="/news" onClick={clickLinkHandler}>
           Новини
         </Link>
+        <Link to="/stats" onClick={clickLinkHandler}>
+          Статистика
+        </Link>
         <Link to="/about" onClick={clickLinkHandler}>
           Про клуб
         </Link>
