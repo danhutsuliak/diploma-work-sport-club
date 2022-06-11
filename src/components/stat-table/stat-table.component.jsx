@@ -12,7 +12,7 @@ const StatTable = () => {
             alt=""
           />
         </td>
-        <td>Lorem ipsum</td>
+        <td>Paul Pierce</td>
         <td>23</td>
         <td>421</td>
         <td>{(421 / 23).toFixed(1)}</td>
