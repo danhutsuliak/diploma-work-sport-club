@@ -1,17 +1,16 @@
-.news-block {
+.player-block {
   display: flex;
-  flex-direction: column;
   overflow: hidden;
   border-radius: 10px;
   border: 1px solid #ccc;
   transition: all 0.3s ease;
 
-  .news-image {
-    height: 180px;
+  .player-image {
+    width: 100px;
     object-fit: cover;
   }
 
-  .news-content {
+  .player-content {
     display: flex;
     flex-direction: column;
     padding: 16px;
@@ -21,11 +20,11 @@
       font-weight: bold;
     }
 
-    .news-text {
+    .player-text {
       color: black;
     }
 
-    .news-date {
+    .player-date {
       color: #aaa;
       font-size: 0.8rem;
     }

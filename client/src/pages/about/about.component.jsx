@@ -16,78 +16,105 @@ const About = () => {
     <div className="about">
       <h1>Про нас</h1>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo quia
-        voluptatibus exercitationem placeat atque? Esse ipsam cum quisquam
-        suscipit saepe tenetur earum incidunt quo quas neque at, omnis eaque?
-        Aliquam. Facilis, sit velit possimus eius cumque doloremque, modi nam
-        numquam assumenda fugiat accusantium consequatur repellat commodi nemo
-        provident dignissimos aut debitis. Nisi accusantium minima, ab quae at
-        consequuntur sapiente quibusdam. Fugiat, cupiditate, laudantium alias
-        quam pariatur ipsa et eaque, voluptatum illo a voluptatem nesciunt
-        excepturi mollitia! Earum nam iusto, temporibus, expedita blanditiis
-        nemo dolorum perferendis eum dolor voluptatibus reiciendis alias?
+        Баскетбольний клуб «Тигри» заснована 7 червня 2017 року. На сьогоднішній
+        день в його структуру входить доросла чоловіча команда, яка під брендом
+        БК «Тигри» представлятимуть Чернівецьку область у Чемпіонатах та Кубку
+        України. Серед глобальних завдань клубу – це об’єднати увесь
+        чернівецький баскетбол та створити «піраміду», до якої увійдуть дитячі,
+        юнацькі, студентські, аматорські колективи, а також баскетбол 3х3,
+        вершиною будуть саме дорослі професійні команди, де гратимуть найкращі
+        вихованці Чернівецького баскетболу.
       </p>
       <img src={img1} alt="basketball game" className="float-left" />
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum optio
-        asperiores ullam sapiente ducimus repudiandae quod fuga beatae debitis
-        recusandae repellat hic rerum minus harum odit, enim porro molestias
-        magnam!
+        Вони винні так само, як і ті, хто через душевну слабкість, тобто через
+        бажання уникнути страждань і болю відмовляється від виконання свого
+        обов’язку. Втім, тут дуже легко і просто провести відмінності, тому що,
+        коли ми вільні і нам надана повна можливість вибору бажаного, коли ніщо
+        не заважає нам робити те, що нам більше подобається, будь яку насолоду
+        слід визнати бажаним, а будь-яке страждання огидним.
       </p>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos at
-        aspernatur ab voluptatibus optio voluptate ducimus iure ex? Accusamus
-        voluptates facilis quae esse est, modi dolores? Inventore accusantium
-        soluta ut. Ea voluptates asperiores sint eaque fuga animi consequuntur
-        quo veritatis ducimus. Ea voluptate ad unde laborum? Ipsa illo
-        consequatur recusandae ab, tempora numquam possimus dolores aperiam
-        quasi natus veritatis voluptas!
+        Але щоб ви зрозуміли, звідки виникає це хибне уявлення людей, цуратись
+        насолоди і вихваляти страждання, я розкрию перед вами всю картину і
+        роз’ясню, що саме говорив цей чоловік, який відкрив істину, якого я б
+        назвав зодчим щасливого життя. Дійсно, ніхто не відкидає, не зневажає,
+        не уникає насолод тільки через те, що це насолоди, але лише через те, що
+        тих, хто не вміє розумно вдаватися насолоді, осягають великі страждання.
+        Так само як немає нікого, хто полюбивши, вважав за краще і зажадав би
+        саме страждання тільки за те, що це страждання, а не тому, що інший раз
+        виникають такі обставини, коли страждання і біль приносять якесь і
+        чималу насолоду. Якщо скористатися найпростішим прикладом, то хто з нас
+        став би займатися якими б то не було тяжкими фізичними вправами, якщо б
+        це не приносило з собою якоїсь користі? І хто міг би по справедливості
+        дорікнути прагнення до насолоди, яке не несло б з собою ніяких
+        неприємностей, або того, хто уникав би такого страждання, яке не
+        приносило б з собою ніякої насолоди?
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic magnam
-        repellat possimus eligendi perferendis minima aliquid explicabo omnis
-        molestiae assumenda corrupti ipsam, sit quas magni voluptates eos rerum,
-        non amet?
+        Ми цураємось і вважаємо, що заслуговують справедливого обурення ті, хто,
+        піддався звабі і розбещеним спокусам, які дають їм насолоду, і без тями
+        від пристрасті не передбачили, яких страждань і які нещастя на них
+        чекають. Вони винні так само, як і ті, хто через душевну слабкість,
+        тобто через бажання уникнути страждань і болю відмовляється від
+        виконання свого обов’язку. Втім, тут дуже легко і просто провести
+        відмінності, тому що, коли ми вільні і нам надана повна можливість
+        вибору бажаного, коли ніщо не заважає нам робити те, що нам більше
+        подобається, будь яку насолоду слід визнати бажаним, а будь-яке
+        страждання огидним. Але при деяких обставинах – або на вимогу боргу, або
+        в силу якоїсь необхідності часто доводиться забувати про насолоди і не
+        втікати від тягарів. Тому мудрець дотримується в цьому випадку
+        наступного принципу вибору – або, відмовляючись від задоволення, він
+        отримує якісь інші і навіть великі насолоди, або, зазнаючи страждання,
+        він позбавляється від більш жорстоких.
       </p>
       <img src={img2} alt="basketball game" className="float-right" />
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde pariatur,
-        error molestiae amet velit vitae aperiam, ducimus, optio earum ipsa
-        quisquam possimus. Dolorum, laboriosam. Consequatur, debitis! Beatae
-        veniam unde aspernatur. Quia atque iusto animi illum, eius at aut optio
-        dicta similique laboriosam provident hic harum doloremque dolorum,
-        maiores voluptatibus in illo! Eveniet deserunt consequatur, corporis
-        quidem iure voluptatum nulla modi? Libero reprehenderit ipsum natus
-        quaerat a necessitatibus repudiandae rerum est blanditiis voluptates
-        voluptate corporis, nihil quae ut eius, impedit, officiis deleniti
-        quibusdam consequatur? Temporibus, aspernatur esse at similique quasi
-        eos!
+        Виникає це хибне уявлення людей, цуратись насолоди і вихваляти
+        страждання, я розкрию перед вами всю картину і роз’ясню, що саме говорив
+        цей чоловік, який відкрив істину, якого я б назвав зодчим щасливого
+        життя. Дійсно, ніхто не відкидає, не зневажає, не уникає насолод тільки
+        через те, що це насолоди, але лише через те, що тих, хто не вміє розумно
+        вдаватися насолоді, осягають великі страждання. Так само як немає
+        нікого, хто полюбивши, вважав за краще і зажадав би саме страждання
+        тільки за те, що це страждання, а не тому, що інший раз виникають такі
+        обставини, коли страждання і біль приносять якесь і чималу насолоду.
+        Якщо скористатися найпростішим прикладом, то хто з нас став би займатися
+        якими б то не було тяжкими фізичними вправами, якщо б це не приносило з
+        собою якоїсь користі? І хто міг би по справедливості дорікнути прагнення
+        до насолоди, яке не несло б з собою ніяких неприємностей, або того, хто
+        уникав би такого страждання, яке не приносило б з собою ніякої насолоди?
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        optio quis in blanditiis quos veritatis obcaecati necessitatibus
-        repellendus pariatur assumenda est explicabo nostrum vel repudiandae
-        voluptatem molestiae expedita voluptatibus numquam. Sapiente, molestiae
-        sunt. Veniam inventore dolores, ut fugiat voluptate tempora ullam odit
-        delectus libero! Ipsum sit eveniet et quo illo in excepturi iure nobis
-        similique sapiente. Odio sit explicabo a.
+        Розкрию перед вами всю картину і роз’ясню, що саме говорив цей чоловік,
+        який відкрив істину, якого я б назвав зодчим щасливого життя. Дійсно,
+        ніхто не відкидає, не зневажає, не уникає насолод тільки через те, що це
+        насолоди, але лише через те, що тих, хто не вміє розумно вдаватися
+        насолоді, осягають великі страждання. Так само як немає нікого, хто
+        полюбивши, вважав за краще і зажадав би саме страждання тільки за те, що
+        це страждання, а не тому, що інший раз виникають такі обставини, коли
+        страждання і біль приносять якесь і чималу насолоду.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum voluptatem
-        consequuntur ab voluptas est possimus placeat libero ad temporibus rerum
-        facilis in eum iure quod officiis, amet, ex saepe nesciunt?
+        Звідки виникає це хибне уявлення людей, цуратись насолоди і вихваляти
+        страждання, я розкрию перед вами всю картину і роз’ясню, що саме говорив
+        цей чоловік, який відкрив істину, якого я б назвав зодчим щасливого
+        життя. Дійсно, ніхто не відкидає, не зневажає, не уникає насолод тільки
+        через те, що це насолоди, але лише через те, що тих, хто не вміє розумно
+        вдаватися насолоді, осягають великі страждання.
       </p>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, maxime
-        non sequi amet molestiae ullam dolores similique quod. Dolorum impedit
-        aliquam atque dolor earum accusantium sed, itaque magnam ullam illo?
-        Eaque, doloribus rerum. Itaque iure pariatur, adipisci asperiores
-        eligendi eius ducimus incidunt blanditiis eum reiciendis quis, totam,
-        assumenda aspernatur delectus quae? Facilis velit id tenetur tempore
-        laboriosam consequatur, adipisci vel. Veritatis at, non laborum quasi
-        debitis cumque ducimus aperiam aspernatur odit et ipsa minima ratione
-        saepe beatae nulla explicabo laudantium molestiae asperiores? Ipsa,
-        neque dolor repellat iusto nam ad possimus.
+        Дійсно, ніхто не відкидає, не зневажає, не уникає насолод тільки через
+        те, що це насолоди, але лише через те, що тих, хто не вміє розумно
+        вдаватися насолоді, осягають великі страждання. Так само як немає
+        нікого, хто полюбивши, вважав за краще і зажадав би саме страждання
+        тільки за те, що це страждання, а не тому, що інший раз виникають такі
+        обставини, коли страждання і біль приносять якесь і чималу насолоду.
+        Якщо скористатися найпростішим прикладом, то хто з нас став би займатися
+        якими б то не було тяжкими фізичними вправами, якщо б це не приносило з
+        собою якоїсь користі? І хто міг би по справедливості дорікнути прагнення
+        до насолоди, яке не несло б з собою ніяких неприємностей, або того, хто
+        уникав би такого страждання, яке не приносило б з собою ніякої насолоди?
       </p>
       <img src={img3} alt="basketball game" className="float-left" />
       <p>

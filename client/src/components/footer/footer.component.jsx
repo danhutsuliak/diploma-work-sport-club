@@ -12,7 +12,7 @@ const Footer = () => (
       <nav className="footer-nav">
         <Link to="/">Головна</Link>
         <Link to="about">Про нас</Link>
-        <a href="https://github.com/danhutsuliak">@danhutsuliak на Github</a>
+        <Link to="contacts">Контакти</Link>
       </nav>
     </div>
   </footer>

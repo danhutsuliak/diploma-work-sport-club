@@ -22,18 +22,20 @@ const NewsPreview = () => {
       </h2>
 
       <div className="news-wrapper">
-        {news?.map((post) => {
-          return (
-            <Link key={post.id} to={`/news/${post.id}`}>
-              <NewsBlock
-                image={post.featuredImage}
-                title={post.title}
-                text={post.description}
-                date={post.date}
-              />
-            </Link>
-          );
-        })}
+        {news
+          ?.filter((p) => p.id < 4)
+          .map((post) => {
+            return (
+              <Link key={post.id} to={`/news/${post.id}`}>
+                <NewsBlock
+                  image={post.featuredImage}
+                  title={post.title}
+                  text={post.description}
+                  date={post.date}
+                />
+              </Link>
+            );
+          })}
       </div>
     </div>
   );

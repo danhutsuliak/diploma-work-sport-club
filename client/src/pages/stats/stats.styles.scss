@@ -18,6 +18,7 @@
   }
 
   select {
+    width: 140px;
     border: 2px solid black;
     border-radius: 4px;
   }
@@ -42,5 +43,9 @@
 
   @media screen and (min-width: 800px) {
     padding: 20px 200px;
+
+    select {
+      width: 240px;
+    }
   }
 }

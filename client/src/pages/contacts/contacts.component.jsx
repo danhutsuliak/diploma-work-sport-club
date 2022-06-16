@@ -26,13 +26,12 @@ const Contacts = () => {
           </a>
         </li>
         <li>
-          Instagram Сторінка:{" "}
           <a
             href="https://www.instagram.com/bctigers/"
             target="_blank"
             rel="noreferrer"
           >
-            https://www.instagram.com/bctigers/
+            Instagram Сторінка
           </a>
         </li>
       </ul>

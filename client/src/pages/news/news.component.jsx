@@ -22,7 +22,6 @@ const News = () => {
 
       <div className="news-wrapper">
         {news?.map((post) => {
-          console.log(post);
           return (
             <Link to={`/news/${post.id}`}>
               <NewsBlock

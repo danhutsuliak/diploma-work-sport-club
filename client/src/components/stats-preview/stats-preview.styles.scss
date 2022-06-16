@@ -1,4 +1,4 @@
-.news-preview {
+.stats-preview {
   margin: 20px;
   border-radius: 20px;
 
@@ -6,7 +6,7 @@
     margin: 20px;
   }
 
-  .news-wrapper {
+  .stats-wrapper {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
@@ -14,7 +14,7 @@
   }
 
   @media (min-width: 800px) {
-    .news-wrapper {
+    .stats-wrapper {
       grid-template-columns: repeat(2, 1fr);
     }
 
@@ -22,7 +22,7 @@
   }
 
   @media (min-width: 1200px) {
-    .news-wrapper {
+    .stats-wrapper {
       grid-template-columns: repeat(4, 1fr);
     }
   }
